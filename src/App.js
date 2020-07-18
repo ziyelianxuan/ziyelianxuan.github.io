@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,6 +6,9 @@ import {
   Link
 } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
+import Users from './pages/Users';
+import About from './pages/About';
 
 function App() {
   return (
@@ -44,16 +46,5 @@ function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
 
 export default App;
